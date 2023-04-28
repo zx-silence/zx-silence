@@ -1,4 +1,3 @@
-
 services:
   - type: web
     name: my-app
@@ -7,14 +6,14 @@ services:
     startCommand: python app.py
     envVars:
       - key: TORPID
-        fromVariable: TORPID
+        value: your_torpid_value
       - key: AGENTID
-        fromVariable: AGENTID
+        value: your_agentid_value
       - key: SECRET
-        fromVariable: SECRET
+        value: your_secret_value
       - key: TOKEN
-        fromVariable: TOKEN
+        value: your_token_value
       - key: AESKEY
-        fromVariable: AESKEY
+        value: your_aeskey_value
       - key: OPEN_API_KEY
-        fromVariable: OPEN_API_KEY
+        value: your_open_api_key_value
